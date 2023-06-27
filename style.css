@@ -1,0 +1,29 @@
+.card-img, .card-img-bottom, .card-img-top {
+    /* width: 100px;
+     */
+     height: 300px;
+     width: auto;
+}
+.navlogo {
+    max-height: 50px;
+    max-width: 150px;
+    width: 100px;
+  }
+.stick{
+    position: fixed;
+    top: 110px;
+    right: 0;
+}
+.card-height {
+    height: 100%;
+
+  }
+  
+.nav2{
+    position: fixed;
+    top: 0;
+}
+.cart_img{
+  width: 50px;
+  height: 50px;
+}
