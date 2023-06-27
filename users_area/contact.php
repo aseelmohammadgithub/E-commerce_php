@@ -19,13 +19,13 @@
             display:flex;
             align-items:center;
             justify-content:space-around;
-            margin-top:100px
+            margin-top:70px
         }
         .social-media-container {
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            margin-top: 50px;
+            margin-top: 30px;
         }
 
         .social-media-container a {
@@ -61,6 +61,7 @@
     </style>
 </head>
 <body>
+<h3 class="m-auto ml-7">For Collaborations contact us on</h3>
     <div class="container">
         <div class="social-media-container">
         <a href="https://instagram.com/aseel_mohammad_126?igshid=ZDc4ODBmNjlmNQ==" target="_blank">
@@ -78,7 +79,17 @@
         <img src="./user_images/clg.jpeg" alt="Your Image">
         </div>
     </div>
-
+    <h4>Report an issue</h4>
+    <form action="https://formspree.io/f/mnqkazng"
+  method="POST">
+        <div class="form-outline mb-4">
+            <input type="email" class="form-control w-11 m-auto" value=""placeholder="Enter your working email address :"name="email">
+        </div>
+        <div class="form-outline mb-4">
+            <input type="text" class="form-control w-10 m-auto" value=""placeholder="Report an issue "name="text">
+        </div>
+        <button type="submit" class="bg-secondary text-light">Submit</button>
+    </form>
     <div class="footer bg-info p-2 text-center">
         <p>All rights reserved © ℑ𝔫𝔫𝔬𝔳𝔞𝔱𝔦𝔬𝔫 𝔴𝔦𝔱𝔥 𝓐𝓼𝓮𝓮𝓵</p>
     </div>
